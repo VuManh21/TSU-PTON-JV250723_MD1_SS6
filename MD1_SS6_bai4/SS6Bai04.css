@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(29, 172, 24);
+
+}
+header .logo-name{
+     color: white;
+     text-align: center;
+     padding: 15px 0px;
+}
+header .logo-nav{
+    text-align: center;
+    padding-bottom: 15px;
+    
+}
+.logo-nav a {
+ text-decoration: none;
+ margin-left: 10px;
+}
+main{
+    margin-top: 15px;
+    display: flex;
+    align-items: stretch;
+    
+   
+}
+main .aside-left{
+    border: 1px solid black;
+    margin-right: 20px;
+    padding-right: 200px;
+    padding-left: 30px;
+}
+main .aside-left ul{
+    margin-left: 30px;
+    
+}
+
+
+.section img{
+    width: 250px;    
+}
+.section h2 {
+    margin: 15px 0 ;
+}
+.section p{
+    margin: 15px 0;
+}
+
+
+footer{
+   background-color: darkgrey;
+   height: 40px;
+   margin-top: 15px;
+   
+}
+footer p {
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
