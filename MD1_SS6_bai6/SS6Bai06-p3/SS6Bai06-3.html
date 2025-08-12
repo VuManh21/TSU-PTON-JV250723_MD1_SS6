@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./SS6Bai06-3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="con-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI6_NufwINpE-L-3j_xma9NLntMZElDpEm1A&s"
+                alt="">
+        </div>
+        <div class="con-text">
+            <a href=""> .Tài trợ</a>
+            <h3>
+                Bí mật sau chuỗi thành công của đế chế kẹo ngọt đã chinh phục tuổi thơ của mọi thế hệ người Việt
+            </h3>
+            <p>
+                BigBaBol, Alpenliebe, Mentos, HappDent, Golia, Chupa Chups-:"Tài Sản" quý giá của Perfetti Van Melle,
+                một trong những tập đoàn sản...
+            </p>
+            <div class="con-info">
+                <a href="http:/www.kenh24.vn">kenh14.vn <i class="fa-solid fa-share-from-square"></i></a>
+                <span><i class="fa-solid fa-eye"></i>+56k</span>
+            </div>
+
+        </div>
+
+    </div>
+    <section>
+        <button class="accordion">Accordion Item#1 </button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae veniam ipsa quae dolorem ab adipisci, reiciendis impedit rem et totam praesentium fugit, sunt repellat perspiciatis voluptas laudantium, sed ex. Iusto!
+            Consequatur recusandae illum consectetur facilis assumenda dolorum quae ipsum maiores rem hic quam, exercitationem repellendus nobis accusantium perspiciatis, adipisci obcaecati quisquam. Consectetur, dignissimos. Corrupti obcaecati nostrum quae veritatis, facere eaque.
+            Praesentium provident est ex illum minima asperiores voluptatibus corrupti. Sed minima fugit doloremque commodi vero aut, illum et consequuntur, ut totam eligendi? Officia nihil culpa mollitia tempore, asperiores labore explicabo.
+            Eligendi unde consectetur mollitia blanditiis harum consequuntur esse libero sapiente delectus adipisci magnam cum quisquam, quia atque minima fugit quam vero assumenda, voluptatum placeat labore vitae explicabo? Sunt, ipsam aliquam.
+            Nesciunt voluptas error labore maiores dolorum repellat tempore excepturi molestiae fugiat placeat accusantium voluptatibus iste, iure tempora beatae suscipit velit. Eveniet culpa nisi excepturi exercitationem quae praesentium eum laborum saepe.
+            Perferendis odio quia ipsa nemo at aut vel repellendus magnam qui soluta eos et sed debitis iure reiciendis, voluptatem quod, totam eum quas amet aspernatur repellat. Accusantium deleniti quae earum.
+            Excepturi asperiores ducimus soluta non debitis blanditiis quis eius sapiente dolorem sint voluptatibus voluptates, ullam, suscipit sed cum quae esse aliquam nobis, commodi veniam eligendi amet omnis architecto dicta! Amet.</p>
+        </div>
+
+        <button class="accordion">Accordion Item#2</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae veniam ipsa quae dolorem ab adipisci, reiciendis impedit rem et totam praesentium fugit, sunt repellat perspiciatis voluptas laudantium, sed ex. Iusto!
+            Consequatur recusandae illum consectetur facilis assumenda dolorum quae ipsum maiores rem hic quam, exercitationem repellendus nobis accusantium perspiciatis, adipisci obcaecati quisquam. Consectetur, dignissimos. Corrupti obcaecati nostrum quae veritatis, facere eaque.
+            Praesentium provident est ex illum minima asperiores voluptatibus corrupti. Sed minima fugit doloremque commodi vero aut, illum et consequuntur, ut totam eligendi? Officia nihil culpa mollitia tempore, asperiores labore explicabo.
+            Eligendi unde consectetur mollitia blanditiis harum consequuntur esse libero sapiente delectus adipisci magnam cum quisquam, quia atque minima fugit quam vero assumenda, voluptatum placeat labore vitae explicabo? Sunt, ipsam aliquam.
+            Nesciunt voluptas error labore maiores dolorum repellat tempore excepturi molestiae fugiat placeat accusantium voluptatibus iste, iure tempora beatae suscipit velit. Eveniet culpa nisi excepturi exercitationem quae praesentium eum laborum saepe.
+            Perferendis odio quia ipsa nemo at aut vel repellendus magnam qui soluta eos et sed debitis iure reiciendis, voluptatem quod, totam eum quas amet aspernatur repellat. Accusantium deleniti quae earum.
+            Excepturi asperiores ducimus soluta non debitis blanditiis quis eius sapiente dolorem sint voluptatibus voluptates, ullam, suscipit sed cum quae esse aliquam nobis, commodi veniam eligendi amet omnis architecto dicta! Amet.
+           </p>
+        </div>
+
+        <button class="accordion">Accordion Item#3</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+        </div>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
+        </script>
+    </section>
+</body>
+
+</html>
